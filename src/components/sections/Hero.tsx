@@ -32,22 +32,24 @@ export function Hero() {
         >
           <span className="text-gradient">Smart Seaweed</span>
           <br />
-          <span className="text-foreground">Identification System</span>
+          <span className="text-foreground">Cultivation & Harvest</span>
         </h1>
 
         <p
           className="animate-fade-up mt-6 max-w-2xl text-base text-muted-foreground md:text-lg"
           style={{ animationDelay: "0.2s" }}
         >
-          A deep-learning platform for cultivation and harvest management — detecting{" "}
+          An end-to-end research platform combining{" "}
+          <span className="text-primary font-semibold">AI identification</span>,{" "}
+          <span className="text-secondary font-semibold">IoT smart farming</span>,
+          growth prediction, and post-harvest management for{" "}
           <span className="text-primary font-semibold">Gracilaria</span> &{" "}
-          <span className="text-secondary font-semibold">Kappaphycus</span> species and
-          classifying their health in real time.
+          <span className="text-secondary font-semibold">Kappaphycus</span>.
         </p>
 
         <div className="animate-fade-up mt-10 flex flex-wrap items-center justify-center gap-4" style={{ animationDelay: "0.3s" }}>
           <a
-            href="#domain"
+            href="#system"
             className="group inline-flex items-center gap-2 rounded-full bg-gradient-primary px-7 py-3.5 text-sm font-semibold text-primary-foreground shadow-glow transition-bounce hover:scale-105"
           >
             Explore Project
@@ -62,17 +64,18 @@ export function Hero() {
         </div>
 
         {/* Stats */}
-        <div className="animate-fade-up mt-20 grid w-full max-w-3xl grid-cols-1 gap-4 sm:grid-cols-3" style={{ animationDelay: "0.4s" }}>
+        <div className="animate-fade-up mt-20 grid w-full max-w-4xl grid-cols-2 gap-4 sm:grid-cols-4" style={{ animationDelay: "0.4s" }}>
           {[
+            { value: 4, suffix: "", label: "System Modules" },
             { value: 90, suffix: "%", label: "Model Accuracy" },
             { value: 2, suffix: "", label: "Species Detected" },
-            { value: 3, suffix: "", label: "Health Classes" },
+            { value: 24, suffix: "/7", label: "IoT Monitoring" },
           ].map((s) => (
             <div key={s.label} className="glass rounded-2xl p-6 transition-smooth hover:scale-105 hover:shadow-glow">
-              <div className="text-4xl font-bold text-gradient" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
+              <div className="text-3xl md:text-4xl font-bold text-gradient" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
                 <Counter end={s.value} suffix={s.suffix} />
               </div>
-              <div className="mt-1 text-sm text-muted-foreground">{s.label}</div>
+              <div className="mt-1 text-xs md:text-sm text-muted-foreground">{s.label}</div>
             </div>
           ))}
         </div>

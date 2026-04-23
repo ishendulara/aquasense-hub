@@ -5,32 +5,32 @@ const cards = [
   {
     icon: BookOpen,
     title: "Literature Survey",
-    body: "Comprehensive review of computer-vision approaches in aquaculture, with focus on red-algae species and disease detection.",
+    body: "Review of computer-vision in aquaculture, IoT-based tank farming, growth-prediction models, and post-harvest traceability for red algae.",
   },
   {
     icon: AlertCircle,
     title: "Research Gap",
-    body: "Existing systems lack species-specific recognition for Gracilaria & Kappaphycus and overlook real-time health assessment.",
+    body: "No unified platform combines species ID, real-time tank monitoring, AI harvest prediction, and post-harvest workflow for Gracilaria & Kappaphycus.",
   },
   {
     icon: Target,
     title: "Research Problem",
-    body: "Manual seaweed inspection is slow, subjective, and unable to scale across distributed cultivation farms.",
+    body: "Manual cultivation, inspection, and harvest decisions are slow, subjective, and cannot scale across modern controlled-environment seaweed farms.",
   },
   {
     icon: Compass,
     title: "Research Objectives",
-    body: "Build an automated pipeline for species identification, health classification, and harvest decision support.",
+    body: "Deliver four integrated modules: AI identification, IoT smart cultivation, growth & harvest prediction, and AI-driven post-harvest management.",
   },
   {
     icon: Workflow,
     title: "Methodology",
-    body: "Image acquisition → preprocessing (OpenCV) → CNN/EfficientNet model → FastAPI service → web dashboard.",
+    body: "Image + sensor acquisition → preprocessing → CNN/EfficientNet & regression models → FastAPI services → IoT dashboard → QR-based delivery flow.",
   },
   {
     icon: Cpu,
     title: "Technologies Used",
-    body: "TensorFlow · EfficientNet · CNN · OpenCV · FastAPI · Python · React · TypeScript",
+    body: "TensorFlow · EfficientNet · CNN · OpenCV · FastAPI · IoT Sensors · MQTT · QR · React · TypeScript",
   },
 ];
 

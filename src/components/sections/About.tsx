@@ -2,10 +2,10 @@ import { Github, Linkedin, Mail } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
 
 const team = [
-  { name: "Team Member 1", id: "IT00000001", role: "AI Model Developer", desc: "Seaweed identification & health classification with EfficientNet.", initials: "M1" },
-  { name: "Team Member 2", id: "IT00000002", role: "Backend Developer", desc: "FastAPI services, model serving, and database integration.", initials: "M2" },
-  { name: "Team Member 3", id: "IT00000003", role: "Frontend Developer", desc: "React dashboard, visualization, and user experience.", initials: "M3" },
-  { name: "Team Member 4", id: "IT00000004", role: "Research Analyst", desc: "Literature review, dataset curation, and evaluation.", initials: "M4" },
+  { name: "Team Member 1", id: "IT00000001", role: "AI Identification Developer", desc: "Species & health detection of Gracilaria and Kappaphycus using EfficientNet/CNN.", initials: "M1" },
+  { name: "Team Member 2", id: "IT00000002", role: "IoT & Smart Farming Developer", desc: "Tank-based cultivation: weight & water-quality sensors, controlled environment, dashboard.", initials: "M2" },
+  { name: "Team Member 3", id: "IT00000003", role: "Growth Prediction Developer", desc: "Continuous growth monitoring, AI-based harvest date estimation, chart visualization.", initials: "M3" },
+  { name: "Team Member 4", id: "IT00000004", role: "Post-Harvest & AI System Developer", desc: "QR generation, packaging workflow, AI food/recipe/medicine recommendations.", initials: "M4" },
 ];
 
 export function About() {

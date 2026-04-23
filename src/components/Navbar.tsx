@@ -3,6 +3,8 @@ import { Menu, X, Waves } from "lucide-react";
 
 const links = [
   { href: "#home", label: "Home" },
+  { href: "#system", label: "System" },
+  { href: "#modules", label: "Modules" },
   { href: "#domain", label: "Domain" },
   { href: "#milestones", label: "Milestones" },
   { href: "#documents", label: "Documents" },
